@@ -62,7 +62,7 @@ public class UsuarioController {
         usuarioDao.registrar(usuario);
     }
 
-   @RequestMapping(value="usuario63")
+  /* @RequestMapping(value="usuario63")
     public Usuario editar(@PathVariable Long id){
         Usuario usuario=new Usuario();
         usuario.setId(id);
@@ -82,6 +82,6 @@ public class UsuarioController {
         usuario.setEmail("riosirving04@gmail.com");
         usuario.setPassword("123456");
         return usuario;
-    }
+    }*/
 
 }
